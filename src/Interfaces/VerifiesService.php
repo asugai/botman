@@ -2,7 +2,7 @@
 
 namespace BotMan\BotMan\Interfaces;
 
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 interface VerifiesService
 {

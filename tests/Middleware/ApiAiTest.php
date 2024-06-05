@@ -10,7 +10,7 @@ use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\BotMan\Middleware\ApiAi;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 class ApiAiTest extends TestCase
 {

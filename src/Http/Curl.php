@@ -3,7 +3,7 @@
 namespace BotMan\BotMan\Http;
 
 use BotMan\BotMan\Interfaces\HttpInterface;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 class Curl implements HttpInterface
 {

@@ -36,7 +36,7 @@ use Closure;
 use Illuminate\Support\Collection;
 use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 /**
  * Class BotMan.

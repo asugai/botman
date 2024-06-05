@@ -8,7 +8,7 @@ use BotMan\BotMan\Messages\Incoming\Answer;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\BotMan\Messages\Outgoing\Question;
 use BotMan\BotMan\Users\User;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class TestDriver implements DriverInterface, VerifiesService
 {

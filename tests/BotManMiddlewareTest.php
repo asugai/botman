@@ -10,7 +10,7 @@ use BotMan\BotMan\Drivers\Tests\ProxyDriver;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
 use BotMan\BotMan\Tests\Fixtures\TestCustomMiddleware;
 use PHPUnit\Framework\TestCase;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 class BotManMiddlewareTest extends TestCase
 {

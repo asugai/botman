@@ -2,7 +2,7 @@
 
 namespace BotMan\BotMan\Interfaces;
 
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 interface HttpInterface
 {

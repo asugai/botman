@@ -3,7 +3,7 @@
 namespace BotMan\BotMan\Interfaces;
 
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
-use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\Response;
 
 interface DriverInterface
 {

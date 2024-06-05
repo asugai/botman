@@ -6,7 +6,7 @@ use BotMan\BotMan\Drivers\NullDriver;
 use BotMan\BotMan\Http\Curl;
 use BotMan\BotMan\Interfaces\DriverInterface;
 use BotMan\BotMan\Messages\Incoming\IncomingMessage;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 /**
  * A driver that acts as a proxy for a global driver instance. Useful for mock/fake drivers in integration tests.

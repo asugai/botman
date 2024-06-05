@@ -7,7 +7,7 @@ use BotMan\BotMan\Interfaces\DriverInterface;
 use BotMan\BotMan\Interfaces\HttpInterface;
 use BotMan\BotMan\Interfaces\VerifiesService;
 use Illuminate\Support\Collection;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class DriverManager
 {

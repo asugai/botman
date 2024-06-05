@@ -9,7 +9,7 @@ use BotMan\BotMan\Messages\Outgoing\Question;
 use BotMan\BotMan\Users\User;
 use Illuminate\Support\Collection;
 use Symfony\Component\HttpFoundation\ParameterBag;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class TestAdditionalDriver extends HttpDriver
 {

@@ -10,7 +10,7 @@ use BotMan\BotMan\Interfaces\StorageInterface;
 use BotMan\BotMan\Storages\Drivers\FileStorage;
 use React\EventLoop\LoopInterface;
 use React\Socket\Server;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Http\Request;
 
 class BotManFactory
 {
